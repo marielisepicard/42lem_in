@@ -62,13 +62,28 @@ For example, this solution is not optimal because a BFS find **only one path** w
 ### ✅ Modified Bradth-first search 
 
 When looking for more than one path, we decided to **modify the BFS algorith** and **allow using a occupied room to find more path**.
-**The rule is:**
-- As long as we can find a new path without an occupied room, let's avoid occupied room. 
-- But when we have no choice, let's make a try. 
-- When we find a new solution (new path configuration), let's compare both solutions to find the most optimal one.
+
+**Here is an example:**
+
+- Step 1: find the shortest path 
+<img src="https://github.com/marielisepicard/42lem_in/blob/main/assets/complex1.gif?raw=true" width=80% height=80%>
+
+- Step 2: find more path
 
 
-<img src="https://raw.githubusercontent.com/marielisepicard/42lem_in/main/assets/improved_BFS.gif?token=AWE4BMTUG7ERRBVINVERHU3BYCJEG" width=50% height=50%>
+The goal here is to find as much path as we can without using an occupied room.
+
+<img src="https://github.com/marielisepicard/42lem_in/blob/main/assets/complex2.gif?raw=true" width=80% height=80%>
+
+- Step 3: find more path WITH occupied room
+
+
+The goal here is to see if we can replace a path by two (or more) paths. To do so, we are now allowed to use an occupied room. If we do, we will have to go back one time minimum. 
+
+<img src="https://github.com/marielisepicard/42lem_in/blob/main/assets/complex3.gif?raw=true" width=80% height=80%>
+
+Done 🎉
+
 
 ## Result
 
