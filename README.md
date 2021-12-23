@@ -53,7 +53,7 @@ To find the best (and good number of) paths, I used an algorithm inspired by **[
 
 ### 🚨 Bradth-first search is not optimal
 
-However, this solution is flawed because it may prevent the program to find multiple path. 
+However, this solution is flawed because it may prevent the program to find multiple paths. 
 
 <img src="https://github.com/marielisepicard/42lem_in/blob/main/assets/BFS_issue.gif?raw=true" width=50% height=50%>
 
