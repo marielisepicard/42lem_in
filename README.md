@@ -61,7 +61,7 @@ For example, this solution is not optimal because a BFS find **only one path** w
 
 ### ✅ Modified Bradth-first search 
 
-When looking for more than one path, we decided to **modify the BFS algorith** and **allow using a occupied room to find more path**.
+When looking for more than one path, we decided to **modify the BFS algorith** and **allow using an occupied room to find more path**.
 
 **Here is an example:**
 
