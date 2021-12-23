@@ -68,7 +68,7 @@ When looking for more than one path, we decided to **modify the BFS algorith** a
 - Step 1: find the shortest path 
 <img src="https://github.com/marielisepicard/42lem_in/blob/main/assets/complex1.gif?raw=true" width=80% height=80%>
 
-- Step 2: find more path
+- Step 2: find more paths
 
 
 The goal here is to find as much path as we can without using an occupied room.
